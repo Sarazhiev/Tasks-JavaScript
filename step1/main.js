@@ -87,4 +87,6 @@
 // let num1 = 5;
 // let num2 = 0;
 // console.log(num1 / num2);
-
+//
+// let name = prompt('EnterName');
+// alert(name);
