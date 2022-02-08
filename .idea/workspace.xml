@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49573a36-4255-4df2-90c9-34ff8e329885" name="Default Changelist" comment="" />
+    <list default="true" id="49573a36-4255-4df2-90c9-34ff8e329885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/step4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step4/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/step4" />
+  </component>
   <component name="ProjectId" id="24SribE7t5ZYH5JU1rKIW6LQavz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -32,6 +44,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\It-19-00\JS\Firstless\step1" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,7 +63,25 @@
       <workItem from="1643634959724" duration="6061000" />
       <workItem from="1643648150561" duration="3135000" />
       <workItem from="1643657457260" duration="1753000" />
-      <workItem from="1643702752148" duration="4079000" />
+      <workItem from="1643702752148" duration="6023000" />
+      <workItem from="1643719645821" duration="1096000" />
+      <workItem from="1643726249010" duration="65000" />
+      <workItem from="1643726427615" duration="1372000" />
+      <workItem from="1643807329102" duration="1278000" />
+      <workItem from="1643821593994" duration="2748000" />
+      <workItem from="1643877327877" duration="3272000" />
+      <workItem from="1643894323781" duration="1106000" />
+      <workItem from="1643958583137" duration="4617000" />
+      <workItem from="1643963318294" duration="4000" />
+      <workItem from="1643979853102" duration="1787000" />
+      <workItem from="1643993773659" duration="1915000" />
+      <workItem from="1644045094983" duration="11428000" />
+      <workItem from="1644063964465" duration="468000" />
+      <workItem from="1644239100671" duration="5493000" />
+      <workItem from="1644251925725" duration="3830000" />
+      <workItem from="1644317483003" duration="14441000" />
+      <workItem from="1644334199380" duration="37000" />
+      <workItem from="1644334418638" duration="223000" />
     </task>
     <servers />
   </component>

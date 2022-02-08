@@ -155,3 +155,7 @@
 // console.log(Object.keys(car)); // здесь мы получили массив из ключей объекта , через Object.keys
 // console.log(Object.values(car)); // здесь мы получили массив из значений ключа объекта, через Object.values
 // console.log(Object.entries(car)); // здесь мы получили массив из массивов которые хранят по два значения это ключ и значение, через object.entries
+
+//
+
+
