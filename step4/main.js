@@ -183,9 +183,41 @@
 //
 //
 //
-
-
-
+// let message = 'привет';
+// let messageEnd;
+// if (5 > 50) {
+//     messageEnd = ', Вася'
+// } else if (5 > 30) {
+//     messageEnd = ', Оля'
+// } else if (5 > 10) {
+//     messageEnd = ', Миша'
+// } else if (5 >1) {
+//     messageEnd = ', Андрей'
+// } else {
+//     messageEnd = ', Nurs'
+// }
+// message += messageEnd;
+// console.log(message);
+// let a = 92;
+// let b = '11';
+// console.log(a > b);
+//
+// if ('0') {
+//     console.log('Hello')
+// }
+// if (prompt('какое официальное название js?') ==='es') {
+//     alert('OK!')
+// } else {
+//     alert ('STUPID!!!')
+// }
+let enter = prompt('enter number', 0);
+if (enter > 0) {
+    alert(1)
+} else if (enter < 0) {
+    alert(-1)
+} else {
+    alert(0)
+}
 
 
 

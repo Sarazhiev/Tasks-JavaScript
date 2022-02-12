@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49573a36-4255-4df2-90c9-34ff8e329885" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/step4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selftask/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/step4" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24SribE7t5ZYH5JU1rKIW6LQavz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,6 +81,19 @@
       <workItem from="1644317483003" duration="14441000" />
       <workItem from="1644334199380" duration="37000" />
       <workItem from="1644334418638" duration="223000" />
+      <workItem from="1644334647480" duration="622000" />
+      <workItem from="1644344681173" duration="3000" />
+      <workItem from="1644400293570" duration="2821000" />
+      <workItem from="1644405901791" duration="4000" />
+      <workItem from="1644412161126" duration="5895000" />
+      <workItem from="1644428173067" duration="1854000" />
+      <workItem from="1644480362581" duration="2801000" />
+      <workItem from="1644483232558" duration="1998000" />
+      <workItem from="1644488366178" duration="147000" />
+      <workItem from="1644492204300" duration="4075000" />
+      <workItem from="1644584770247" duration="1034000" />
+      <workItem from="1644598128540" duration="2497000" />
+      <workItem from="1644653582546" duration="8392000" />
     </task>
     <servers />
   </component>
@@ -89,9 +101,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1643636034801">
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1644598989974">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1643636034801" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1644598989974" />
   </component>
 </project>
