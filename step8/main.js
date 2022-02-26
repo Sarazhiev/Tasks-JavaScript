@@ -107,3 +107,140 @@
 //     })
 // };
 // console.log(task1([2, 1, 3, 4, 10, 20]));
+
+// just tasks:
+// const task1 = (arr1,arr2) => {
+//     return arr1.map((item, idx) => {
+//         return item + arr2[idx]
+//     })
+// };
+// console.log(task1([2,1], [1,4]));
+
+// const task2 = (arr) => {
+//     return arr.map((item, idx) => {
+//         return item * 2
+//     })
+// };
+// console.log(task2([2,3,4,1,5]));
+// const task3 = arr => arr.map(item => item['id']);
+//
+// console.log(task3([{id: '100'}, {id: 5}, {id: true}, {id: undefined}]));
+
+// const task4 = (arr) => {
+//     return arr.map((item) => {
+//         return `<div>${item}</div>`
+//     })
+// };
+// console.log(task4([1,2]));
+
+// const task5 = (arr) => {
+//     return arr.filter((item) => {
+//         return item.length % 2 === 0
+//     })
+// };
+// console.log(task5(['ab', 'abc', 'abcd']));
+
+// const task6 = (arr) => {
+//     return arr.filter((item) => {
+//         if (item % 10 === 0) {
+//             return item * 2
+//         }
+//     })
+// };
+// console.log(task6([1,2,3,7,4,5,10,20]));
+
+// const task7 = (arr) => {
+//     return arr.filter((item) => {
+//         if (item === true) {
+//             return item
+//         }
+//     })
+// };
+// console.log(task7([true, false,true, false, false]));
+
+// const task = (arr) => {
+//     let result = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         result += arr[i]
+//     }
+//     return result
+// };
+// console.log(task([1,2,3,4,5,]));
+
+// const task = (arr) => {
+//     let result = 0;
+//     arr.map((item) => {
+//          result += item
+//     })
+//     return result
+// };
+// console.log(task([1,2,3,4,5]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         return acc + rec
+//     }, 0)
+// };
+// console.log(task([1,2,3,4,5]));
+//
+// acc = 0; rec = 1;
+// return = 0 + 1 = 1 = acc;
+//
+// acc = 1; rec = 2;
+// return = 1+2 = 3 = acc;
+//
+// acc = 3; rec = 3;
+// return 3 + 3 = 6 = acc;
+//
+// acc = 6; rec = 4;
+// return 6 + 4 = 10 = acc;
+//
+// acc = 10; rec = 5;
+// return 10 + 5 = 15 = acc;
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         return [...acc, rec + 2]
+//     }, [])
+// };
+// console.log(task([5,5,6,6]));
+//
+// acc = []; rec = 5;
+// return [...[], 5 + 2] = [7] = acc;
+//
+// acc = [7]; rec = 5;
+// return [...[7], 5 + 2] = [7,7] = acc;
+//
+// acc = [7,7]; rec = rec = 6;
+// return [... [7,7], 6 + 2] = [7,7,8] = acc;
+//
+// acc = [7,7,8]; rec = 6;
+// return [...[7,7,8], 6 + 2] = [7,7,8,8] = acc;
+
+// const task = (obj) => {
+//     return Object.keys(obj).reduce((acc, rec) => {
+//         if (typeof obj[rec] === 'string') {
+//             return {...acc, [rec] : obj[rec]}
+//         }
+//         return acc
+//     }, {})
+// };
+// console.log(task({name: 'Pilot', isActive: true, task: 'first' }));
+//
+// obj[rec] = 'pilot';                 // значение нашего ключа
+// acc = {};                            // наш аккамулятор
+// rec = name;              // наш ключ
+// typeof 'pilot' === 'string' = true;     // проверяем тип нашего зачения
+// return {...{}, name: 'pilot'} = {name: 'pilot'} = acc; // берем все из объекта
+//
+// obj[rec] = true;
+// acc = {name: 'pilot'};
+// rec = 'isActive';
+// typeof true === 'string' = false;
+// return {name: 'pilot'}
+//
+// obj[rec] = 'first';
+// acc = {name: 'pilot'};
+// rec = 'task';
+// typeof 'first' === 'string' = true;
+// return  {...name: 'pilot', task: 'first'}; = {name: 'pilot', task: 'first'} = acc;
