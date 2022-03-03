@@ -106,3 +106,46 @@
 //
 // };
 // console.log(task1([2,3], [1,4]));
+
+
+// ***
+// const task = (arr1, arr2) => {
+//     return arr1.reduce((acc, rec, idx) => {
+//         if (rec === arr2[idx]){
+//             return [...acc, rec]
+//         }
+//         return acc
+//     }, [])
+// };
+// console.log(task([1,2,3,4,5], [1,12,3,8,5]));
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         return {...acc, [rec.token] : rec}
+//     }, {})
+// };
+// console.log(task([{token: '1'},{token: '2', value:23},{token: '3', name:'superman'},{token: '4'}]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         if(acc[rec]){
+//             acc[rec]++
+//         }else{
+//             acc[rec] = 1;
+//         }
+//         return acc
+//
+//     }, {})
+// };
+// console.log(task( ['a','b', 'aa']));
+
+// const task = (arr1) => {
+//     return arr1.reduce((acc, rec) => {
+//         return [...acc, ...rec]
+//     }, [])
+// };
+// console.log(task([['ab','abc'],['abcd']]));
+
+// const task = (obj) => {
+//     return Object.entries(obj)
+// };
+// console.log(task({a:1,b:2}));

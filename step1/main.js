@@ -76,8 +76,8 @@
 // // если ответ NaN то получаем true, если число то false
 // console.log(isFinite('Ivan')); // Обратная функция isNaN
 
-// let a = 6 / 'a'
-// console.log(isNaN(a))
+// let a = 6 / 'a';
+// console.log(isNaN(a));
 
 // let num1 = 5;
 // // num1 = num1 + 10;
