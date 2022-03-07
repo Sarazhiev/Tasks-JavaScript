@@ -32,8 +32,8 @@
 
 // function cutFunc(str) {
 //     let str2 = 'break';
-//     // return str.slice(1) + str2.slice(1)
-//     // return `${str.slice(1)}${str2.slice(1)}`
+//      // return str.slice(1) + str2.slice(1)
+//      return `${str.slice(1)}${str2.slice(1)}`
 // }
 //
 // console.log(cutFunc('Word'));

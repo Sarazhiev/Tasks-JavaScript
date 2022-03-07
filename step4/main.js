@@ -1,7 +1,6 @@
 
 
 
-
 // let myStudy = 'good';
 // if (myStudy !== 'good') {
 //     console.log('Меня отчислят')
@@ -79,7 +78,7 @@
 // true || true = true
 // true || false = true
 // false || true = true
-// false || false = true
+// false || false = false
 // console.log(0 && 1); //смотрит первый и видит false, при виде false они не смотрит дальше!
 // console.log(2 && 4); // смотрит что true, идет дальше , выводит последний элемент.
 // console.log(1 && 0); // смотрит что 1 это true, идет дальше видит false выводит false!
@@ -142,11 +141,13 @@
 // } else {
 //     console.log('выходной')
 // }
-// let day = 'понедельник';
+// let day = 'нурик';
 // if (day === 'понедельник' || day === 'вторник' || day === 'среда' || day === 'четверг' || day === 'пятница') {
 //     console.log('рабочий день')
-// } else {
+// } else if (day === 'суббота' || day === 'воскресенье') {
 //     console.log('выходной')
+// } else {
+//     console.log('это не день недели!')
 // }
 
 // let day = 'аааа';
@@ -210,14 +211,14 @@
 // } else {
 //     alert ('STUPID!!!')
 // }
-let enter = prompt('enter number', 0);
-if (enter > 0) {
-    alert(1)
-} else if (enter < 0) {
-    alert(-1)
-} else {
-    alert(0)
-}
+// let enter = prompt('enter number', 0);
+// if (enter > 0) {
+//     alert(1)
+// } else if (enter < 0) {
+//     alert(-1)
+// } else {
+//     alert(0)
+// }
 
 
 

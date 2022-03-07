@@ -61,12 +61,12 @@
 
 // const findMethod = (arr) => {
 //     return arr.find((item, idx) => {
-//         return item > 9     // здесь попросили больше 9, он сразу вывел нам 10 и все. остановился!! *******
+//         return item > 9     // здесь попросили больше 10, он сразу вывел нам 10 и все. остановился!! *******
 //     })
 // };
 // console.log(findMethod([1,2,3,4,5,6,7,8,9,10,20,30]));
 
-//Findindex тоже самое как find но выдает индекс то есть, его место
+// Findindex тоже самое как find но выдает индекс то есть, его место
 
 // const findMethod = (arr) => {
 //     return arr.findIndex((item, idx) => {

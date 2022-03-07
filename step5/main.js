@@ -420,11 +420,11 @@
 // for (let item of fruits) {
 //     console.log(item)
 // }
-
+//
 // console.log([] + false - null + true);
-
-
-
+//
+//
+//
 
 
 

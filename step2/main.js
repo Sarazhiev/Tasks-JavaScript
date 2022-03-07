@@ -29,7 +29,7 @@
 // let name2 = "Nurs";
 // let name3 = `Nurs`;
 
-// console.log('${name1} Nurs'); обычная строка
+// console.log('${name1} Nurs'); //обычная строка
 // console.log("${name2 Nurs}"); // обычная строка, будем использовать в JSON обьектах
 // console.log(`${name3} Nurs`); // Шаблонная строка через диструктуризация можем написать логику JS
 
