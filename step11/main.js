@@ -66,3 +66,146 @@
 // p.removeAttribute('class'); // удалить аттрибут
 // console.log(p.hasAttribute('id')); // проверить на наличие атрубита
 // p.getAttribute('id'); // получить аттрибут
+
+// let atr = document.querySelector('p');
+// console.log(atr.getAttribute('id'));
+// console.log(atr.hasAttribute('id'));
+// console.log(atr.setAttribute('class','qwerty'));
+// console.log(atr.removeAttribute('id'));
+
+
+// let h3 = document.createElement('h3'); // создание нового тега
+// let title = document.querySelector('.title');
+// //
+// let body = document.body;
+//
+//
+// h3.textContent = 'Новый элемент';
+
+//body.appendChild(h3); // Добавление элемента в конец
+//body.append('привет'); // Добавление элемента в конец + он принимает в виде элементов обычные строки !
+
+//body.prepend(h3);// Добавление элемента в начало
+
+
+//title.after(h3);// Добавление элемента после
+//title.before(h3);// Добавление элемента до
+
+
+// let box = document.querySelector('#box');
+// let hello = document.querySelector('.hi');
+
+
+//box.removeChild(hello); // удалить ребенка обращаясь к родителю
+//hello.remove(); // удалить элемент
+
+
+// console.log(box.children); // получение потомков
+// console.log(box.childNodes); // получение потомков
+//
+// console.log(box.childElementCount); // получение количества потомков
+// console.log(box.lastChild); // получение последнего потомка
+// console.log(box.firstChild); // получение первого потомка
+// console.log(box.firstElementChild); // получение первого  элемента потомка
+//
+// console.log(hello.parentElement);// получение родителя
+// console.log(hello.parentNode);// получение родителя
+//
+// console.log(hello.nextElementSibling); // получение соседа после тебя
+// console.log(hello.previousElementSibling); // получение соседа до тебя
+
+
+
+
+// console.log(input.value); // получение значения у поля ввода
+// console.log(input.checked); // проверка на установку
+// console.log(input.disabled); // проверка на заблокирован ли наш инпут
+
+
+// let input = document.querySelector('input');
+// let btn = document.querySelector('button');
+//
+// btn.onclick = () => {                     //при нажатии получаем alert функцию
+//     alert('я смог вызвать свою функцию')
+// };
+
+// btn.onmouseover = () => {  // при наведении получаем функцию alert!!!
+//     h1.style.background = 'red'
+// };
+//
+// btn.onmouseleave = () => {   // если убрать курсор от кнопки, он примет цвет по умолчанию
+//     h1.style.background = 'transparent'     //****
+// };
+//
+// btn.ondblclick = () => {            // при нажатии нашей кнопки дважды, получаем нашу функцию, alert!!
+//     alert('я смог вызвать свою функцию')
+// };
+
+// let input = document.querySelector('input');
+// let btn = document.querySelector('button');      //создаем переменные чтобы работать с ними!!!!***
+// let agent = document.querySelector('#agent007');
+// let agentSpan = document.querySelector('#agent007 span');
+//
+//
+// btn.addEventListener('click', (e) => {  // если наше поле ввода больше нуля,
+//     if (input.value.length > 0) {
+//         agentSpan.textContent = input.value;  // то дай нам ввод!
+//         input.value = ''
+//     }
+// });
+//
+//
+// input.addEventListener('change', () => {
+//     agentSpan.textContent = input.value;
+//     if (input.value.length < 1){
+//         btn.disabled = true;
+//     } else {
+//         btn.disabled = false
+//     }
+// });
+//
+// let form = document.querySelector('form');
+// let inputText = document.querySelector('#input1');
+// let checkBox = document.querySelector('#check1');
+// let btnSub = document.querySelector('#sub');
+//
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault(); // функция для запрета перезагрузки сайта
+//    // console.log(e.target[0].value) // значение первого элемента в форме
+//    // console.log(e.target[1].checked) // значение второго элемента в форме //проверка checked, на установку
+//     if (e.target[1].checked) {       // если у нас второй элемент === checked
+//         agentSpan.textContent = e.target[0].value  // то дай нам это условие
+//         e.target[0].value = ''
+//         e.target[1].checked = false
+//     } else {
+//         alert('Поставьте галочку !!!')  // иначе получаем функцию  alert !!
+//     }
+//
+// });
+//
+
+// let form = document.querySelector('form');
+// let listItem = document.querySelectorAll('li');
+// let list = document.querySelector('ul');
+//
+// form.addEventListener('submit', (e) =>{   // создали событие, при нажатии на кнопку :
+//     e.preventDefault();  // не перезапускал сайт ***
+//
+//         let li = document.createElement('li');  // при нажатии создается тэг ли!
+//         li.textContent = e.target[0].value;     // значение с инпута переходили в ли!
+//         list.append(li)       // добовлялся в конец!!
+//         e.target[0].value = '' // после отправки присваивал пустую строку
+//
+// });
+//
+//
+// Array.from(listItem).forEach(item => {  // перевели нашу форму в массив!
+//     item.style.cursor = 'pointer';      // при наводке на ли, включался cursor pointer!!!
+//     item.addEventListener('click', (e) => {  // создаем событие при нажатии на наши ли!
+//         item.style.color = `rgb(${Math.floor(Math.random()* 255)},${Math.floor(Math.random()* 255)},${Math.floor(Math.random()* 255)})`
+                // менялся цвет!!!  а менялся рандомно, то есть у нас есть rgb их у нас три. в каждом rgb есть 255 и вызываем рандомную цифру
+                // то есть рандомный цвет!!!
+//     })
+//
+// });
+

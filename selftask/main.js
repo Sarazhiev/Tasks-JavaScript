@@ -1,3 +1,56 @@
+//Home work first lesson!
+//1
+// let num = 5;
+// console.log(num);
+//2
+// let a = 10;
+// let b = 2;
+// let c = 5;
+// console.log(a + b + c);
+//3
+// let task3 = 100;
+// console.log(task3 * 2);
+//4
+// let num = 67;
+// console.log(num % 7);
+//5
+// let a = 10;
+// let b = 2;
+// console.log(a / b);
+//6
+// let c = 15;
+// let d = 2;
+// let result = c + d;
+// console.log(result);
+//7
+// let a = 30;
+// let b = 15;
+// let c = a + b;
+// console.log(c % 4);
+//8
+// let a = 17;
+// let b = 10;
+// let c = a - b;
+// let d = 5;
+// let result = c + d;
+// console.log(result);
+//9
+// let a = 10;
+// let b = '99';
+// let result = a + b;
+// console.log(result);
+//10
+// let name = 'лет';
+// let number = 10;
+// let result = name + number;
+// console.log(result);
+
+
+
+
+
+
+
 // let a = 'test';
 // if (a === 'test') {
 //     console.log(true)
@@ -291,6 +344,145 @@
 //     message = 'какой необычный возраст'
 // }
 // alert(message);
+
+
+
+
+
+
+
+
+
+
+
+// let a = 'test';
+// if (a === 'test') {
+//     console.log('верно')
+// } else {
+//     console.log('Неверно')
+// }
+
+// let number;
+// let data = true;
+// data === true ? number = 2 : number = 3;
+// console.log(number);
+
+// switch (prompt('когда вы хотите придти в магазин?')) {
+//     case '23':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '24':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '1':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '2':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '3':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '4':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '5':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '6':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '7':
+//         alert('В это время мы не работаем!');
+//         break;
+//     case '8':
+//         alert('В это время мы не работаем!');
+//         break;
+//             case '9':
+//                 alert('Будем рады вас видеть!');
+//                 break;
+//             case '10':
+//                 alert('Будем рады вас видеть!');
+//                 break;
+//             case '11':
+//                 alert('Будем рады вас видеть!');
+//                 break;
+//         case '12':
+//             alert('У нас обед!');
+//             break;
+//         case '13':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '14':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '15':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '16':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '17':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '18':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '19':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '20':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '21':
+//             alert('Так же рады вас видеть!');
+//             break;
+//         case '22':
+//             alert('Так же рады вас видеть!');
+//             break;
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let h1 = document.querySelector('#name');
+// console.log(h1);
+// h1.className = 'subtitle';
+// h1.className += ' subtitle';
+// h1.classList.add('subtitle');
+// h1.classList.remove('title');
+// h1.classList.replace('title', 'second')
+// h1.classList.toggle('title');
+// console.log(h1.classList.contains('title'));
+// let div = document.querySelector('.content');
+// div.style.cssText = 'background: red; width:200px; height:200px;';
+// console.log(h1.attributes);
+// console.log(h1.getAttribute('data-test-class'));
+// console.log(h1.dataset.testClass);
+// h1.setAttribute('id', 'main');
+// h1.removeAttribute('class');
+// h1.getAttribute('');
 
 
 
