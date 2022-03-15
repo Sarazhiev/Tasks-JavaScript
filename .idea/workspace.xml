@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49573a36-4255-4df2-90c9-34ff8e329885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/step12/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selftask/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/selftask/main.js" afterDir="false" />
@@ -18,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,7 +143,18 @@
       <workItem from="1647003883253" duration="8000" />
       <workItem from="1647003896598" duration="6500000" />
       <workItem from="1647017889660" duration="1350000" />
-      <workItem from="1647061788553" duration="6700000" />
+      <workItem from="1647061788553" duration="10569000" />
+      <workItem from="1647079942903" duration="8000" />
+      <workItem from="1647088613073" duration="27000" />
+      <workItem from="1647090477172" duration="67000" />
+      <workItem from="1647091529095" duration="56000" />
+      <workItem from="1647156532106" duration="85000" />
+      <workItem from="1647232899081" duration="125000" />
+      <workItem from="1647235664873" duration="17000" />
+      <workItem from="1647235702139" duration="8000" />
+      <workItem from="1647260274569" duration="6349000" />
+      <workItem from="1647329859498" duration="658000" />
+      <workItem from="1647330578841" duration="13114000" />
     </task>
     <servers />
   </component>
@@ -155,9 +170,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.40.1536.824@0.40.1536.824" timestamp="1647010047469" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1644598989974">
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1647264807830">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1644598989974" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824/1920.34.1680.1010@0.40.1536.824" timestamp="1647070577953" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1647264807830" />
   </component>
 </project>

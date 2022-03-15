@@ -6,46 +6,37 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!--<h1 class="title" id="name">Заголовок</h1>-->
-<!--<p class="text subtitle" id="name1">Nursultan!!!</p>-->
-<!--<p class="text subtitle" >Nursultan!!!</p>-->
-<!--<p class="text subtitle">Nursultan!!!</p>-->
-<!--<div id="span" class="box" data-test-class="222" ></div>-->
 
-<!--<div id="box">-->
-<!--    <p class="hi">привет мир</p>-->
-<!--    <p class="hi">привет мир</p>-->
-<!--    <p class="hi2">привет мир</p>-->
-<!--</div>-->
+<section class="todo">
+    <div class="todo__content">
+        <h1 class="todo__title">todoList</h1>
 
-<!--<p id="agent007">Сообщение Нурса : <span></span>  </p>-->
+        <form class="todo__form">
+            <input minlength="5" maxlength="20" required placeholder="Todo text" class="todo__input" type="text">
+            <button class="todo__btn add" type="submit">ADD</button>
+        </form>
 
-<!--<input type="text" >-->
-<!--<button type="button" disabled>Отправить</button>-->
+        <h2 class="todo__empty">Ваш список задач пуст ! ! ! </h2>
 
+        <ul class="todo__list">
 
-<!--<form>-->
-<!--    <input type="text" id="input1">-->
-<!--    <input type="checkbox" id="check1">-->
-<!--    <button type="submit" id="sub">Отправить</button>-->
-<!--</form>-->
+        </ul>
 
-<form>
-    <input type="text" required>
-    <button type="submit">Добавить</button>
-</form>
-
-<ul>
-    <li>Пойти гулять -
-        <button>Удалить</button></li>
-    <li>Прочитать книгу</li>
-    <li>Купить Хлеб</li>
-</ul>
+        <div class="todo__footer">
+            <p class="todo__count">Todo Count : <span class="todo__count-num"></span></p>
+            <div class="todo__footer-btns">
+                <button style="background-color: purple" class="status__btn status__all">All</button>
+                <button style="background-color: gold" class="status__btn status__important">Important</button>
+                <button style="background-color: green" class="status__btn status__done">Delete</button>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-
-<script src="step11/main.js"></script>
+<script src="step12/main.js"></script>
 </body>
 </html>

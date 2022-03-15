@@ -507,6 +507,115 @@
 
 
 
+//1
+// const getFirstEl = () => {
+//     let li = document.querySelector('li');
+//     return li.textContent
+// };
+// console.log(getFirstEl());
+
+//2
+// const arrLi = () => {
+//   let li = document.querySelectorAll('li');
+//     return Array.from(li)
+// };
+// console.log(arrLi());
+
+//3
+// const arrText = () => {
+//   let li = document.querySelectorAll('.list-item');
+//   return Array.from(li).map(item => item.textContent)
+// };
+// console.log(arrText());
+
+//4
+// const arrAtr = () => {
+//     let li = document.querySelectorAll('.list-item');
+//     return Array.from(li).map(item => item.getAttribute('class'))
+// };
+// console.log(arrAtr());
+
+//5
+// const dataGet = () => {
+//     let li = document.querySelectorAll('.list-item');
+//     return Array.from(li).map(item => item.dataset.testId)
+// };
+// console.log(dataGet());
+
+//6
+// const getCol = () => {
+//     let li = document.querySelectorAll('.list-item');
+//     return Array.from(li).filter(item => {
+//         return !item.className.includes(item.textContent)
+//     }).map(item => {
+//         return item.dataset.testId
+//     })
+// };
+// console.log(getCol());
+
+//7
+// const getArr = () => {
+//     let li = document.querySelectorAll('.list-item');
+//     return Array.from(li).forEach((item, idx) => {
+//          item.textContent = `${item.dataset.testId} ${item.textContent}`
+//     })
+// };
+// console.log(getArr());
+
+//8
+// const delEl = () => {
+//     let li = document.querySelectorAll('.list-item');
+//     return Array.from(li).forEach(item => {
+//         if (!item.className.includes(item.textContent)) {
+//             item.remove()
+//         }
+//     })
+// };
+// console.log(delEl());
+
+//9
+// const changeContent = () => {
+//   let changeId = document.querySelector('#secret-login');
+//   changeId.value = 'You were hacked'
+// };
+// console.log(changeContent());
+
+//10
+// const iAmHack = () => {
+//     let hack = document.querySelector('#button-send');
+//     // let hack2 = document.querySelector('#secret-login');
+//     let hack2 = document.querySelector('#test-screen');
+//     hack.addEventListener('click', (e) => {
+//         hack2.textContent = 'you was hacked'
+//     })
+// };
+// console.log(iAmHack());
+
+//11
+// const addEl = () => {
+//     let newDiv = document.createElement('div');
+//     let divEl = document.querySelector('#append-div');
+//     newDiv.textContent = 'Hello';
+//     newDiv.setAttribute('id', 'just-text');
+//     divEl.prepend(newDiv)
+// };
+// console.log(addEl());
+
+//12
+// const addLi = () => {
+//     let divEl = document.querySelector('#append-div');
+//     let addUl = document.createElement('ul');
+//     addUl.setAttribute('id','list');
+//     divEl.prepend(addUl);
+//     for (let i = 1; i <= 10; i++) {
+//         let newLi = document.createElement('li');
+//         addUl.append(newLi);
+//         newLi.textContent = `child${i}`
+//     }
+// };
+// console.log(addLi());
+
+
 
 
 
