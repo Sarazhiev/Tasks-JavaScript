@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49573a36-4255-4df2-90c9-34ff8e329885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/step12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step13/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step14/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selftask/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/selftask/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step12/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/step4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/step12/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Firstless" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\It-19-00\JS\Firstless\step12" />
       <recent name="C:\It-19-00\JS\Firstless\step1" />
     </key>
   </component>
@@ -149,7 +161,40 @@
       <workItem from="1647235702139" duration="8000" />
       <workItem from="1647260274569" duration="6349000" />
       <workItem from="1647329859498" duration="658000" />
-      <workItem from="1647330578841" duration="13950000" />
+      <workItem from="1647330578841" duration="15124000" />
+      <workItem from="1647367520022" duration="856000" />
+      <workItem from="1647368520575" duration="845000" />
+      <workItem from="1647425076130" duration="2349000" />
+      <workItem from="1647427575842" duration="540000" />
+      <workItem from="1647432209613" duration="6532000" />
+      <workItem from="1647449389216" duration="4212000" />
+      <workItem from="1647454086474" duration="15000" />
+      <workItem from="1647454164312" duration="5000" />
+      <workItem from="1647454182376" duration="5000" />
+      <workItem from="1647454200366" duration="12000" />
+      <workItem from="1647504935730" duration="29000" />
+      <workItem from="1647508043122" duration="10000" />
+      <workItem from="1647520241486" duration="298000" />
+      <workItem from="1647522958289" duration="392000" />
+      <workItem from="1647537275838" duration="2931000" />
+      <workItem from="1647592676186" duration="971000" />
+      <workItem from="1647608791231" duration="3940000" />
+      <workItem from="1647622573447" duration="1835000" />
+      <workItem from="1647673955530" duration="4833000" />
+      <workItem from="1647865641842" duration="1825000" />
+      <workItem from="1647867555362" duration="144000" />
+      <workItem from="1647868789452" duration="766000" />
+      <workItem from="1647869650846" duration="335000" />
+      <workItem from="1647870026386" duration="463000" />
+      <workItem from="1647878639920" duration="744000" />
+      <workItem from="1647938031957" duration="23000" />
+      <workItem from="1647940254384" duration="3000" />
+      <workItem from="1647940275499" duration="1652000" />
+      <workItem from="1647950780817" duration="1207000" />
+      <workItem from="1648037303071" duration="730000" />
+      <workItem from="1648041071148" duration="1504000" />
+      <workItem from="1648054726246" duration="2252000" />
+      <workItem from="1648101652857" duration="3248000" />
     </task>
     <servers />
   </component>
@@ -165,10 +210,14 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.40.1536.824@0.40.1536.824" timestamp="1647010047469" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1647264807830">
+    <state x="425" y="207" key="run.anything.popup" timestamp="1647539629379">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1647539629379" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1648037937704">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824/1920.34.1680.1010@0.40.1536.824" timestamp="1647070577953" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1647264807830" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1648037937704" />
   </component>
 </project>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="todo" id="vanta">
+    <div class="todo__content">
+        <h1 class="todo__title">todoList</h1>
+
+        <div class="todo__header">
+            <h4>Status : <span class="todo__status">All</span></h4>
+            <h2 class="todo__time"></h2>
+        </div>
+        <form class="todo__form">
+            <input minlength="5" maxlength="20" required placeholder="Todo text" class="todo__input" type="text">
+            <button class="todo__btn add" type="submit">ADD</button>
+        </form>
+
+        <h2 class="todo__empty">Ваш список задач пуст ! ! ! </h2>
+
+        <ul class="todo__list">
+
+        </ul>
+
+        <div class="todo__footer">
+            <p class="todo__count">Todo Count : <span class="todo__count-num"></span></p>
+            <div class="todo__footer-btns">
+                <button style="background-color: purple" class="status__btn status__all">All</button>
+                <button style="background-color: gold" class="status__btn status__important">Important</button>
+                <button style="background-color: green" class="status__btn status__done">Done</button>
+            </div>
+        </div>
+        <div class="todo__delete "><button class="delete__btn">All Delete</button></div>
+    </div>
+</section>
+
+<script src="three.min.js"></script>
+<script src="vanta.birds.min.js"></script>
+<script>
+    VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0x434572
+    })
+</script>
+<script src="main.js"></script>
+</body>
+</html>

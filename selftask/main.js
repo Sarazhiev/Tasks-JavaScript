@@ -46,10 +46,265 @@
 // console.log(result);
 
 
+//second home work
+//1
+// let a = 'теыст';
+// if (a === 'test') {
+//     console.log('верно')
+// } else if (a === 'тест') {
+//     console.log('тоже венро)')
+// } else {
+//     console.log('не верно')
+// }
+//2
+// let number;
+// let data = true;
+// data ? number = 2 : number = 3;
+// console.log(number);
+//3
+// switch (prompt('когда вы собираетесь прийти в магазин?',0)) {
+//     case '23':
+//         alert('в это время мы не работает');
+//         break;
+//     case '24':
+//         alert('в это время мы не работает');
+//         break;
+//     case '1':
+//         alert('в это время мы не работает');
+//         break;
+//     case '2':
+//         alert('в это время мы не работает');
+//         break;
+//     case '3':
+//         alert('в это время мы не работает');
+//         break;
+//     case '4':
+//         alert('в это время мы не работает');
+//         break;
+//     case '5':
+//         alert('в это время мы не работает');
+//         break;
+//     case '6':
+//         alert('в это время мы не работает');
+//         break;
+//     case '7':
+//         alert('в это время мы не работает');
+//         break;
+//     case '8':
+//         alert('в это время мы не работает');
+//         break;
+//     case '9':
+//         alert('Будем рады Вас видеть');
+//         break;
+//     case '10':
+//         alert('Будем рады Вас видеть');
+//         break;
+//     case '11':
+//         alert('Будем рады Вас видеть');
+//         break;
+//     case '12':
+//         alert('у нас обед');
+//         break;
+//     case '13':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '14':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '15':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '16':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '17':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '18':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '19':
+//         alert('мы так же рады вас видеть');
+//         break;
+//     case '20':
+//         alert('мы так же рады вас видеть');
+//         break;
+// }
+//4
+// let m = 41;
+// let n;
+// if (m > 50) {
+//     console.log(n = 'большое')
+// } else {
+//     console.log(n = 'маленькое')
+// }
+//5
+// let a = -3;
+// if (a === 0 || a === 2) {
+//     console.log(a + 7)
+// } else {
+//     console.log(a / 10)
+// }
+//6
+// if (confirm('есть ли вам 18?')) {
+//     console.log('YES!')
+// } else {
+//     console.log('NO!!!')
+// }
+//7
+// let a = 3;
+// let b = 5;
+// if (a <= 1 && b >= 3) {
+//     console.log(a + b)
+// } else {
+//     console.log(a - b)
+// }
+//8
+// let pasha = 17;
+// if (pasha >= 18) {
+//     console.log(pasha = 'какой уже большой!!!')
+// } else {
+//     console.log(pasha = 'малыш')
+// }
+//9
+// let seasons = 'октябрь';
+// switch (seasons) {
+//     case 'декабрь':
+//     case 'январь':
+//     case 'февраль':
+//         console.log('зима');
+//         break;
+//     case 'март':
+//     case 'апрель':
+//     case 'май':
+//         console.log('весна');
+//         break;
+//     case 'июнь':
+//     case 'июль':
+//     case 'август':
+//         console.log('лето');
+//         break;
+//     case 'сентябрь':
+//     case 'октябрь':
+//     case 'ноябрь':
+//         console.log('осень');
+//         break;
+// }
+//10
+// let time = 61;
+// if (time >= 0 && time <= 15) {
+//     console.log("время относится к четверти часа")
+// } else if (time > 15 && time <= 30) {
+//     console.log("время относится к половине часа")
+// } else if (time > 30 && time <= 45) {
+//     console.log("время относится к 3/4 часа")
+// } else if (time > 45 && time <= 60) {
+//     console.log("время относится к целому часу")
+// } else {
+//     console.log("неизвестный диапазон")
+// }
 
 
 
 
+//1
+// let arr = [1,2,3,4,5];
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+//2
+// let arr = [1,2,3,4,5];
+// let result = [];
+// for (let i = 0; i < arr.length; i++){
+//     result = [...result, arr[i]]
+// }
+// console.log(result);
+
+
+
+//1
+// let name = 'Анастасия';
+// name = 'Максим';
+// console.log(name);
+//2
+// let str = 'Я хочу быть большим и сильным';
+// console.log(str.length);
+//3
+// let a = '15';
+// let b = 15;
+// let c = 10;
+// console.log(a + b + c);
+// console.log(b + c + a);
+//4
+// let arr = [[1,2,3], [4,5,6], [7,8,9]];
+// console.log(arr[1][0]);
+//5
+// let obj = {
+//     name: 'Ivan',
+//     age: 35,
+//     gender: 'male',
+//     job: 'web-developer',
+// };
+// for (let key in obj) {
+//     console.log(`значение свойства ${key} является ${obj[key]}`);
+// }
+//6
+// let surname = 'Серебров';
+// let changeName = 'фф';
+// surname = surname.slice(0,7);
+// console.log(surname + changeName);
+
+// let surname = 'Серебров';
+// surname = surname.split('');
+// surname.splice(-1, 1, 'фф');
+// console.log(surname.join(''));
+//7
+// let str = 'Я люблю торт';
+// console.log(str.includes('торт'));
+
+//8
+// let str = '10223040';
+// str = str.split('').reverse();
+// console.log(str.join(''));
+
+//9
+// let age = 22;
+// console.log(`мне ${age} года`);
+
+//10
+// let str = "  asdasdsadsadsadsadc";
+// console.log(str.trim().split(''));
+
+//11
+// let arr = [2, 1, 3, 4, 5];
+// arr.sort();
+// arr.splice(3,0,'a,b,c');
+// console.log(arr);
+
+//12
+// let str = 'Мой город самый лучший город в России!';
+// console.log(str.indexOf('город'));
+
+//13
+// let str = 'place';
+// console.log(str.slice(1, -1));
+
+//14
+// let a = 10,
+//     b = 10;
+// if (a > b) {
+//     console.log(a + b)
+// } else  if(a < b) {
+//     console.log(a * b)
+// } else {
+//     console.log('числа одинаковые')
+// }
+
+//15
+// let arr = [12,'12', true, undefined, 'Ivan', 35];
+// for (let item of arr) {
+//     console.log(`Массив содержит в себе элемент ${item}`)
+// }
 
 // let a = 'test';
 // if (a === 'test') {

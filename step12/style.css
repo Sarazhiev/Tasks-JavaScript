@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 .todo {
-    background: khaki;
+
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.todo__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .todo__content {
     border: 1px solid black;
     width: 400px;
     border-radius: 10px;
     padding: 20px;
+    background: #00000010;
 }
 .todo__empty {
     padding: 20px 0;
@@ -71,4 +77,13 @@
     cursor: pointer;
     border-radius: 5px;
     border: none;
+}
+
+h4{
+    margin: 10px 0;
+}
+
+.todo__item-time {
+    margin-right: 10px;
+    color: white;
 }
