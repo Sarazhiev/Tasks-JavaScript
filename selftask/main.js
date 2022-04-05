@@ -214,13 +214,87 @@
 // }
 //2
 // let arr = [1,2,3,4,5];
-// let result = [];
-// for (let i = 0; i < arr.length; i++){
-//     result = [...result, arr[i]]
+// let result = 0;
+// for (let i = 0; i < arr.length; i++) {
+//     result += arr[i]
 // }
 // console.log(result);
+//3
+// for (let i = 0; i < 3; i++) {
+//     console.log( `number ${i}!` );
+// }
+// let i = 0;
+// while (i < 3) {
+//     i++;
+//     console.log(`number ${i}!`)
+// }
+//4
+// let arr = [-2,7,9,5,8,1,12,15,17,3];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 0 && arr[i] < 10) {
+//         console.log(arr[i])
+//     }
+// }
+//5
+// for (let i = 2; i <= 10; i += 2) {
+//     console.log(i)
+// }
+//6
+// let sum = 1;
+// for (let i = 1; i <= 100; i++) {
+//     sum += i
+// }
+// console.log(sum);
+//7
+// let arr = ['BMW', 'Mersedes', 'Opel', 'Mazda', 'FIAT', 'Ferarri', 'Reno'];
+// let empty = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === arr[i].toUpperCase()) {
+//         empty = [...empty, arr[i]]
+//     }
+// }
+// console.log(empty);
+//8
+// let arr = [2,3,4,5,6,7];
+// let arr2 = [];
+// for (let i = 0; i < arr.length; i++) {
 
+// }
 
+//9
+// let arr = [-2, 7, '9б', 'Vlad', 1, 12, 15, 'Ivan', 17, 3];
+// for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'string') {
+//         console.log(arr[i])
+//     }
+// }
+//10
+// let week = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб','вс'];
+// for (let i = 0; i < week.length; i++) {
+//     if (week[i] === week[5] || week[i] === week[6]) {
+//         week[i] = 'выходной'
+//     }
+//     console.log(week[i])
+// }
+//11
+// let arr = ['Наташа','Анастасия','Дмитрий','Максим'];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === arr[0]) {
+//         continue
+//     } else {
+//         console.log(arr[i])
+//     }
+// }
+//12
+// let arr = ['Наташа', 'Анастасия', 2, 'Максим', 4];
+// for (let i = 0; i < 1; i++) {
+//     console.log(arr.sort());
+// }
+//13
+// let num = 5;
+// for (let i = 2; i <= 10; i++) {
+//     console.log(num * i)
+// }
 
 //1
 // let name = 'Анастасия';
@@ -698,23 +772,303 @@
 //     }
 
 
+// const task1 = (val) => {
+//     return `${val} typeof ${typeof val}`
+// };
+// console.log(task1(1));
+// console.log(task1(true));
+
+
+// const task2 = (num) => {
+//     // return Math.pow(num,2)
+//     return num ** 2
+// };
+// console.log(task2(3));
+// console.log(task2(5));
+
+// const task3 = (a,b,c) => {
+//     let arr = [];
+//
+//     for (let i = 0; i < a.length || b.length || c.length; i++) {
+//        arr = [...arr, a[i],b[i],c[i]]
+//     }
+//     return arr.join('')
+// };
+
+// const task4 = (a) => {
+//     let arr = [];
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] === a[i].toUpperCase()) {
+//          arr = [...arr, a[i]]
+//         }
+//     }
+//     return arr.join('')
+// };
+// console.log(task4('Сергей Семёнов'));
+// console.log(task4('Анастасия Черданцева'));
+
+// const task5 = (name, city, region) => {
+//     return `привет ${name} добро пожаловать ${city}, ${region}`
+// };
+// console.log(task5(['Дмитрий', 'Серебров'], 'Ишим', 'Тюменская обл'));
+
+// const task6 = (num) => {
+//     if (num < 0) {
+//         return 'Negative'
+//     } else if (num > 0) {
+//         return 'Positive'
+//     } return 'zero'
+// };
+// console.log(task6(-1));
+
+
+// function task7(str) {
+//   str = str.split('');
+//   for (let i = 0; i < str.length; i++) {
+//     str[i] === str[i].toUpperCase() ? str[i] = str[i].toLowerCase() : str[i] = str[i].toUpperCase()
+//   }
+//   return str.join('')
+// }
+// console.log(task7('hello world'));
+// console.log(task7('HELLO WORLD'));
+// console.log(task7('HeLLo WoRLD'));
+
+
+// const task8 = (obj) => {
+//     return obj.id
+// };
+// console.log(task8({id: 10}));
+// console.log(task8({id: true}));
+
+// const task9 = (obj) => {
+//     return obj.name.length % 2 === 0 ? 0 : 1
+// };
+// console.log(task9({name: 'alpha'}));
+
+
+// const task10 = (num1, num2) => {
+//     return num1 > num2 ? 1 : num1 < num2 ? -1 : 0
+// };
+// console.log(task10(5,5));
+
+// function mrYoda(num) {
+//     return num % 3 === 0 && num % 5 === 0 ? 'MasterYoda': num % 3 === 0 ?
+//                 'Master': num % 5 === 0 ? 'Yoda' : num
+// }
+//
+// console.log(mrYoda(15));
+
+
+//переборы
+
+// const task1 = (arr) => {
+//     return arr.map((item) => {
+//         return item * 2
+//     })
+// };
+// console.log(task1([1, 2, 3]));
+// console.log(task1([4, 1, 1, 1, 4]));
+
+// const task2 = (arr) => {
+//     return arr.filter((item, idx) => {
+//         return idx % 2 === 0
+//     })
+// };
+// console.log(task2(['Привет', 'Пока', 'Снова привет']));
+// console.log(task2([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(task2(['Пока', {'Цвет': 'Синий'}]));
+
+// const task3 = (arr) => {
+//     return arr.map((item, idx) => {
+//         return ~item +1
+//     })
+// };
+// console.log(task3([1, 2, 3, 4, 5]));
+// console.log(task3([1, -2, 3, -4, 5]));
+
+// const task4 = (arr, num) => {
+//     let newArr = [];
+//     return arr.filter((item, idx) => {
+//         return idx < num
+//     })
+// };
+// console.log(task4([0, 1, 2, 3, 5, 8, 13], 3));
+// console.log(task4([0, 1, 2, 3, 5, 8, 13], 5));
+
+// const task5 = (arr) => {
+//     return arr.filter((item, idx) => {
+//         return item % idx === 0
+//     })
+// };
+// console.log(task5([22, -6, 32, 82, 9, 25]));
+// console.log(task5([68, -1, 1, -7, 10, 10]));
+
+// const task6 = (arr) => {
+//     return arr.map((item) => {
+//         return typeof item === 'string' ? item = 'null' : item
+//     })
+// };
+// console.log(task6([4, 6, 'Ivan', 5, 'Denis '] ));
+
+// const task7 = (arr) => {
+//     return arr.filter((item) => {
+//         return item.length <= 5
+//     })
+// };
+// console.log(task7(['Евдоким','Ivan', 'Игнат', 'Denis'] ));
+
+// const task8 = (arr) => {
+//     return arr.map((item) => {
+//         return Math.pow(item, 3)
+//     }).map(item => item % 3 === 0 && item % 5 === 0 ? item = 0 : item)
+//
+// };
+// console.log(task8([7, 8, 15, 30, 2] ));
+
+// const task9 = (arr) => {
+//     return arr.map((item, idx) => {
+//         return item.length
+//     })
+// };
+// console.log(task9(['Термос', 'Ураган', 'Земля', 'Комбо', 'Корень'] ));
+
+// const task10 = (arr) => {
+//     return arr.map(item => {
+//         return `<div>${item}</div>`
+//     })
+// };
+// console.log(task10([1, 2, 3, 4, 5 ] ));
+
+// const task11 = (arr) => {
+//     return arr.filter(item => {
+//         return item.length % 2 === 0
+//     })
+// };
+// console.log(task11(['ab', 'abc', 'abcd']));
 
 
 
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         return [...acc, rec * 2]
+//     }, [])
+// };
+// console.log(task([1, 2, 3]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec, idx) => {
+//         if (idx % 2 === 0) {
+//             return [...acc, rec]
+//         }
+//         return acc
+//     }, [])
+// };
+// console.log(task(['Привет', 'Пока', 'Снова привет']));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         if (rec === 0) {
+//             return [...acc, rec]
+//         }
+//         return [...acc, -rec]
+//     }, [])
+// };
+// console.log(task([1, 2, 3, 4, 5]));
+// console.log(task([-1 ,2, -3, 4, 0, -5]));
+
+// const task = (arr, num) => {
+//     return arr.reduce((acc, rec) => {
+//         if (rec < 3) {
+//             return [...acc, rec]
+//         }
+//         return acc
+//     }, [])
+// };
+// console.log(task([0, 1, 2, 3, 5, 8, 13], 3));
+
+// const task = () => {
+//     return
+// };
+// console.log(task());
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec, idx) => {
+//         if (rec % idx === 0) {
+//             return [...acc, rec]
+//         } return acc
+//     }, [])
+// };
+// console.log(task([22, -6, 32, 82, 9, 25]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         if (typeof rec === "string") {
+//             return [...acc, null]
+//         } return [...acc, rec]
+//     }, [])
+// };
+// console.log(task([4, 6, 'Ivan', 5, 'Denis']));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec, idx) => {
+//         if (rec % 3 === 0 && rec % 5 === 0) {
+//             return [...acc, 0]
+//         } return [...acc, Math.pow(rec, 3)]
+//     }, [])
+// };
+// console.log(task([7, 8, 15, 30, 2]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec, idx) => {
+//         return [...acc, rec.length]
+//     }, [])
+// };
+// console.log(task(['Термос', 'Ураган', 'Земля', 'Комбо', 'Корень'] ));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec) => {
+//         return [...acc, `<div>${rec}</div>`]
+//     }, [])
+// };
+// console.log(task([1, 2, 3, 4, 5 ]));
+
+// const task = (arr) => {
+//     return arr.reduce((acc, rec, idx) => {
+//         if (rec.length % 2 === 0 ) {
+//             return [...acc, rec]
+//         } return acc
+//     }, [])
+// };
+// console.log(task(['ab', 'abc', 'abcd']));
 
 
 
+// const task = (arr1, arr2) => {
+//     return arr1.reduce((acc, rec, idx) => {
+//         return [...acc, rec + arr2[idx]]
+//     }, [])
+// };
+// console.log(task([2,4],[1,3]));
 
+// const task = (arr1, arr2) => {
+//     return arr1.reduce((acc, rec) => {
+//         for (let i of arr2) {
+//             if (i === rec) {
+//                 return [...acc, rec]
+//             }
+//         }
+//         return acc
+//     }, [])
+// };
+// console.log(task([1,2,3,4,5], [1,12,3,8,5]));
+// console.log(task([7,14,14], [14,28]));
 
-
-
-
-
-
-
-
-
-
+const task = (arr) => {
+    return arr.reduce((acc, rec, idx) => {
+        
+    }, {})
+};
+console.log(task([{token: '1'},{token: '2', value:23},{token: '3', name:'superman'},{token: '4'}]));
 
 
 
